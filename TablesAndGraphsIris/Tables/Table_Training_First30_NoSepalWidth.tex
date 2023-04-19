@@ -1,0 +1,31 @@
+\begin{longtable}{|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+
+\caption{Training of the linear classifier untill convergence for 10 values of alpha between 0.01 and 0.001. 30 first samples as training set, 20 last samples as testing set, and all features included except speal width. [Opt] is the optimal alpha value, and [Subopt] is the least optimal. } \label{tab:example} \\
+\hline
+\textbf{Alpha value} & \textbf{Iterations until convergence} & \textbf{MSE testing set} & \textbf{Error rate training set} & \textbf{Error rate testing set} \\ \hline
+\endfirsthead
+
+\multicolumn{5}{c}%
+{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+\hline
+\textbf{Alpha value} & \textbf{Iterations} & \textbf{MSE testing set} & \textbf{Error rate training set} & \textbf{Error rate testing set} \\ \hline
+\endhead
+
+\hline \multicolumn{5}{r}{\textit{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+0.01    	&	No convergence 	&	0.0696	&	0.0333	&	0.05	 \\ \hline
+0.009    	&	1723 	&	0.0728	&	0.0333	&	0.05	 \\ \hline
+0.008 [Opt]    	&	904 	&	0.0774	&	0.0333	&	0.0333	 \\ \hline
+0.007    	&	938 	&	0.0781	&	0.0333	&	0.0333	 \\ \hline
+0.006    	&	973 	&	0.0789	&	0.0333	&	0.0333	 \\ \hline
+0.005    	&	1013 	&	0.0801	&	0.0333	&	0.05	 \\ \hline
+0.004    	&	1059 	&	0.0816	&	0.0333	&	0.05	 \\ \hline
+0.003    	&	1112 	&	0.0837	&	0.0222	&	0.05	 \\ \hline
+0.002    	&	1178 	&	0.0871	&	0.0556	&	0.05	 \\ \hline
+0.001 [Subopt]    	&	1270 	&	0.0939	&	0.1	&	0.0667	 \\ \hline
+
+\end{longtable}
